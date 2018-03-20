@@ -59,24 +59,24 @@ $(document).ready(function() {
 	/*	STICKY FILTER HIGHLIGHT
 	/*-----------------------------------------------------------------------------------*/
 		var stickyWrapper		= parseInt($('#sticky-filter').height(), 10);
-		var stickyOffsetTolerance	= 70;		
+		var stickyOffsetTolerance	= 70;
 		//Detecting user's scroll
-		$(window).scroll(function() {		
+		$(window).scroll(function() {
 			//Check scroll position
-			var stickyScrollPosition	= parseInt($(this).scrollTop(), 10);			
+			var stickyScrollPosition	= parseInt($(this).scrollTop(), 10);
 			//Move trough each menu and check its position with scroll position then add current class
-			$('#sticky-filter a').each(function() {	
+			$('#sticky-filter a').each(function() {
 				var stickyThisHref				= $(this).attr('href');
 				var stickyThisTruePosition	= parseInt($(stickyThisHref).offset().top, 10);
-				var stickyThisPosition 		= stickyThisTruePosition - stickyWrapper - stickyOffsetTolerance;				
-				if(stickyScrollPosition >= stickyThisPosition) {					
+				var stickyThisPosition 		= stickyThisTruePosition - stickyWrapper - stickyOffsetTolerance;
+				if(stickyScrollPosition >= stickyThisPosition) {
 					$('.current').removeClass('current');
-					$('#sticky-filter a[href='+ stickyThisHref +']').parent('li').addClass('current');					
+					$('#sticky-filter a[href='+ stickyThisHref +']').parent('li').addClass('current');
 				}
 			});
 			//If we're at the bottom of the page, move pointer to the last section
-			var stickyBottomPage	= parseInt($(document).height(), 10) - parseInt($(window).height(), 10);			
-			if(stickyScrollPosition == stickyBottomPage || stickyScrollPosition >= stickyBottomPage) {			
+			var stickyBottomPage	= parseInt($(document).height(), 10) - parseInt($(window).height(), 10);
+			if(stickyScrollPosition == stickyBottomPage || stickyScrollPosition >= stickyBottomPage) {
 				$('.current').removeClass('current');
 				$('#sticky-filter a:last').parent('li').addClass('current');
 			}
@@ -347,9 +347,9 @@ $(document).ready(function() {
 		    offsetPxBefore: 0,
 		    offsetPxAfter: 0
 		  });
-		
+
 		  var $swipers = $(this);
-		
+
 		$swipers.siblings('.arrow-left').on( "click", function(){
 		$swipers.data('swiper').swipeTo($swipers.data('swiper').activeIndex-1);
 		return false;
@@ -705,5 +705,5 @@ function init() {
     }
     window.onload = init();
 $(window).resize(function() {
-	$('.offset').css('padding-top', $('.navbar').height() + 'px');        
-}); 
+	$('.offset').css('padding-top', $('.navbar').height() + 'px');
+});

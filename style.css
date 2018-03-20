@@ -39,13 +39,13 @@ Author:		elemis
 	29. FONT ICON PAGES
 	30. DIVIDERS
 	31. RESPONSIVE
-	
+
 	font-family: 'Karla', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 	text: #5b5b5b
 	hover: #70aed2
 	headings: #3b3b3b
-	
+
 -------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 /*	00. RESET
@@ -83,7 +83,7 @@ iframe {
     background: #cee2ef; /* Firefox */
     color: #2f2f2f;
 }
-@-webkit-keyframes rotation { 
+@-webkit-keyframes rotation {
 	from {
 	    -webkit-transform: rotate(0deg)
 	}
@@ -91,7 +91,7 @@ iframe {
 	    -webkit-transform: rotate(359deg)
 	}
 }
-@-moz-keyframes rotation { 
+@-moz-keyframes rotation {
 	from {
 	    -moz-transform: rotate(0deg)
 	}
@@ -99,7 +99,7 @@ iframe {
 	    -moz-transform: rotate(359deg)
 	}
 }
-@-o-keyframes rotation { 
+@-o-keyframes rotation {
 	from {
 	    -o-transform: rotate(0deg)
 	}
@@ -107,7 +107,7 @@ iframe {
 	    -o-transform: rotate(359deg)
 	}
 }
-@keyframes rotation { 
+@keyframes rotation {
 	from {
 	    transform: rotate(0deg)
 	}
@@ -681,7 +681,7 @@ footer ul.circled li:before {
     left: 0;
     margin: 0;
     height: 90px;
-    background: transparent;  
+    background: transparent;
     transition: all 0.3s;
     font-family: 'Montserrat', sans-serif;
 }
@@ -695,20 +695,20 @@ footer ul.circled li:before {
     height: auto;
     position: relative;
     box-shadow: none;
-    margin: 0 !important;  
+    margin: 0 !important;
 }
 .navbar .navbar-brand a {
-    transition: none;  
+    transition: none;
 }
 .navbar .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
     float: none;
     text-align: center;
-    width: 100%;   
+    width: 100%;
 }
 .navbar .navbar-nav {
-    float: none;  
+    float: none;
     pointer-events: none;
 }
 .navbar .navbar-nav > li {
@@ -723,7 +723,7 @@ footer ul.circled li:before {
     text-transform: uppercase;
     line-height: 1;
     color: #FFF !important;
-    position: relative;  
+    position: relative;
 }
 .navbar.light .navbar-nav > li > a,
 .navbar.light .btn.responsive-menu {
@@ -732,12 +732,12 @@ footer ul.circled li:before {
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover,
 .navbar .nav > li.current > a {
-    background: none; 
+    background: none;
 }
 .navbar .nav > li.current > a,
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    color: #70aed2 !important 
+    color: #70aed2 !important
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -747,7 +747,7 @@ footer ul.circled li:before {
     background: none;
     border-radius: 0;
     box-shadow: none;
-    padding-top: 15px;   
+    padding-top: 15px;
 }
 .navbar .dropdown-menu li {
     background: #26262a;
@@ -1315,7 +1315,7 @@ figure .link-out:hover {
     top: 0;
 }
 .cbp-singlePageInline-active {
- 	opacity: 1 !important; 
+ 	opacity: 1 !important;
 }
 .cbp-singlePageInline-active .cbp-caption-activeWrap {
     opacity: 1;
@@ -1595,10 +1595,10 @@ main.slide-out .slide-portfolio-overlay {
   display: none;
 }
 .slide-portfolio-item-content-close {
-   color: rgba(29,29,33,0.8); 
+   color: rgba(29,29,33,0.8);
 }
 .slide-portfolio-item-content-close:hover {
-   color: rgba(29,29,33,1); 
+   color: rgba(29,29,33,1);
 }
 .slide-portfolio-item-content-close.is-visible {
   display: block;
@@ -2532,7 +2532,7 @@ figure img {
 }
 .panel-group .panel-active a,
 .panel-group .panel-title > a:hover {
-    color: #FFF;   
+    color: #FFF;
 }
 .panel-group .panel-heading .panel-title:hover,
 .panel-group .panel-active .panel-heading .panel-title {
@@ -2821,10 +2821,10 @@ blockquote:after {
     position: relative;
 }
 #comments .message p {
-    margin: 0;  
+    margin: 0;
 }
 #comments .message p + p {
-    margin-top: 15px;  
+    margin-top: 15px;
 }
 #comments .message-inner {
     margin-left: 100px;
@@ -2976,7 +2976,7 @@ textarea {
 }
 .form-container .form-field input,
 .form-container .form-field select {
-    
+
 }
 .vanilla-form .btn {
     display: block
@@ -3129,7 +3129,7 @@ textarea {
     font-size: 12px !important;
     padding: 0 15px !important;
     margin: 0;
-    
+
 }
 ::-webkit-input-placeholder {
     color: inherit !important;
@@ -3605,7 +3605,7 @@ textarea {
 .fancybox-close:before {
     font-family: 'budicon';
     content: "\e04c";
-    font-weight: bold; 
+    font-weight: bold;
 }
 #fancybox-loading {
     margin-top: -20px;
@@ -4043,9 +4043,9 @@ textarea {
 /*-----------------------------------------------------------------------------------*/
 /*	31. RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.navbar {
-		display: table;  
+		display: table;
 		padding: 0 40px;
 	}
 	.navbar-header {
@@ -4061,12 +4061,12 @@ textarea {
 	    top: 0;
 	    left: 0;
 	    transition: all 0.3s;
-	    pointer-events: none; 
+	    pointer-events: none;
 	}
 	.navbar .navbar-nav > li {
 	    margin: 0 15px;
 	    display: inline-block;
-	    text-align: center;  
+	    text-align: center;
 	}
 	.navbar .social-wrapper {
 	    display: table-cell !important;
@@ -4322,7 +4322,7 @@ textarea {
 	    margin-bottom: 6px;
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 991px) {
 	.container {
 	    padding-right: 15px;
 	    padding-left: 15px;
@@ -4337,7 +4337,7 @@ textarea {
 	    width: 25%;
 	}
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.container {
 	    padding-right: 20px;
 	    padding-left: 20px;
